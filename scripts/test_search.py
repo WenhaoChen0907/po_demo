@@ -14,7 +14,7 @@ def data_with_key(key):
 
 class TestSearch:
     
-
+    """
     def setup(self):
         self.driver = init_driver()
         self.search_page = SearchPage(self.driver)
@@ -38,4 +38,4 @@ class TestSearch:
         allure.attach('输入密码', '密码有：1， 2,3')
         print("pass")
         assert 0
-     """
+     

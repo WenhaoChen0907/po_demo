@@ -1,0 +1,43 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568010385004" stop="1568010385070">
+  <name>test_search</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568010385004" status="failed" stop="1568010385070">
+      <name>TestSearch.test_01</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_search.TestSearch object at 0x00000000048AD940&gt;
+
+    @allure.step(title="登录测试")
+    def test_01(self):
+        allure.attach('输入账号', '测试账号有：1， 2,3')
+        print("pass")
+        allure.attach('输入密码', '密码有：1， 2,3')
+        print("pass")
+&gt;       assert 0
+E       assert 0
+
+scripts\test_search.py:40: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5852-MainThread"/>
+        <label name="host" value="USER-20171015AN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1568010385007" status="failed" stop="1568010385009">
+          <name>登录测试</name>
+          <title>登录测试</title>
+          <attachments>
+            <attachment source="7d663bfa-02da-45be-b97f-d6e95eff28d2-attachment.txt" title="输入账号" type="text/plain"/>
+            <attachment source="28d79baa-ea0b-48ce-852c-6338224e7563-attachment.txt" title="输入密码" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

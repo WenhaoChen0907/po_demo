@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "USER-20171015AN",
+    "children" : [ {
+      "name" : "5852-MainThread",
+      "children" : [ {
+        "name" : "TestSearch.test_01",
+        "uid" : "65f6cb888cf87a77",
+        "parentUid" : "fce9a2954dfb90e5be90329103e731f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1568010385004,
+          "stop" : 1568010385070,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fce9a2954dfb90e5be90329103e731f6"
+    } ],
+    "uid" : "57dbc9533aa2fde6e43032f55cf3bd2f"
+  } ]
+}

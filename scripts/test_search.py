@@ -5,6 +5,7 @@ from base.base_driver import init_driver
 from page.search_page import SearchPage
 from base.base_yml import yml_data_with_file
 import pytest
+import allure
 
 
 def data_with_key(key):
@@ -12,6 +13,7 @@ def data_with_key(key):
 
 
 class TestSearch:
+    """
 
     def setup(self):
         self.driver = init_driver()
@@ -26,3 +28,13 @@ class TestSearch:
         self.search_page.input_text(content)
         # 点击返回
         self.search_page.click_back()
+
+    """
+
+    @allure.step(title="登录测试")
+    def test_01(self):
+        allure.attach('输入账号', '测试账号有：1， 2,3')
+        print("pass")
+        allure.attach('输入密码', '密码有：1， 2,3')
+        print("pass")
+        assert 0

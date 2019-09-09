@@ -1,0 +1,17 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "TestSearch.test_01",
+    "uid" : "65f6cb888cf87a77",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1568010385004,
+      "stop" : 1568010385070,
+      "duration" : 66
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}
